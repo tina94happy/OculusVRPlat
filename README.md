@@ -10,7 +10,7 @@ ref: 參考youtuber jack vr blockchain的影片製作
 
 #專題<br>
 4/10更新<br>
-https://youtu.be/vUso-BBIscA<br>
+https://youtu.be/D89rOGMxiUc<br>
 已做:<br>
 手部功能升級、移動功能升級、場景切換。<br>
 尚未做:<br>
