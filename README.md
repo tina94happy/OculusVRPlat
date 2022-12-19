@@ -24,3 +24,8 @@ $git checkout -b {branch}
 $git fetch -p
 $git rebase -i origin/master
 ```
+- 解決衝突，在 Local 端試跑確定都可以通過
+```git
+$ git rebase --continue
+$ git push -f origin/{branch}
+```
