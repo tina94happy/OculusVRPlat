@@ -14,3 +14,13 @@ https://youtu.be/D89rOGMxiUc<br>
 已做:<br>
 手部功能升級、移動功能升級、場景切換、註冊登入input、遊戲介紹影片。<br>
 
+#開發流程<br>
+-  開發前要先建立branch並checkout過去
+```git
+$git checkout -b {branch}
+```
+- 開發完成後檢查master是否有更新code，並rebase or merge
+```git
+$git fetch -p
+$git rebase -i origin/master
+```
