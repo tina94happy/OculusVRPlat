@@ -1,31 +1,19 @@
-# throwBallUnity
-#丟球的小DEMO(使用VR的Oculus Quest 2)\
+# OculusVRPlat
+
+## 作品說明
+iMirror代表我的智慧虛擬分身之含意，也是虛擬與現實世界的結合，使用者透過本身虛擬分身P2P對話與互動取代社群平台，系統中的交誼廳，正是一個從第一視角去跟他人對話甚至互動，與遠距帶著VR設備的人到此交誼廳都可以即時對話與社群互動，同時加入NFT設計提供遊戲公司與使用者互動的商業效益，將使用者創作的設計圖公開並提供遊戲公司出價選購，讓遊戲公司加入使用者的創意，進而達成協同創作的目標。
+iMirror用VR模擬的方式實現"GameFi"，場景NPC提供使用者指引，拓展產品銷售與交流的機會，利用元宇宙建立經濟體系，使用者可以轉換身分成為推廣者，加速產品的推廣，展示GameFi與NFT的共享體驗。
+
+## (使用VR的Oculus Quest 2)\
 1.可以多人連線+語音\
 2.可以抓取物品\
 3.可使用teleport方法進移動\
 4.嘴巴會隨著講話張開閉合 \
-https://youtu.be/-UWVXgcy5ic
+5. 手部功能升級\
+6.移動功能升級(更加直覺)\
+7.場景切換\
+8.註冊登入input\
+9.遊戲介紹影片\
+10.NFT大廳\
+[Demo Video](https://www.youtube.com/watch?v=Xwarfd9ZUmI&t=15s)
 
-ref: 參考youtuber jack vr blockchain的影片製作
-
-#專題<br>
-2022/4/10更新<br>
-https://youtu.be/D89rOGMxiUc<br>
-已做:<br>
-手部功能升級、移動功能升級、場景切換、註冊登入input、遊戲介紹影片。<br>
-
-#開發流程<br>
--  開發前要先建立branch並checkout過去
-```git
-$git checkout -b {branch}
-```
-- 開發完成後檢查master是否有更新code，並rebase or merge
-```git
-$git fetch -p
-$git rebase -i origin/master
-```
-- 解決衝突，在 Local 端試跑確定都可以通過
-```git
-$ git rebase --continue
-$ git push -f origin/{branch}
-```
